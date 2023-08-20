@@ -1,0 +1,102 @@
+.App {
+  background-color: rgb(213, 213, 213);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AppBase {
+  background-color: white;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 20px;
+  filter: drop-shadow(1px 0px 30px rgb(113, 237, 229));
+  
+}
+
+.titleContainer{
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+  font-size: 4.5vh;
+  font-weight:500;
+  margin: 10px auto;
+
+}
+
+.moneyContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Content {
+  margin-top: 2vh;
+box-shadow: 2px 5px 15px #bfbfbf;
+  width: 98%;
+  height: 48vh;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 2vh;
+  box-shadow: 2px 5px 15px #bfbfbf;
+    width: 98%;
+    height: 15vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Button {
+  width: 18vw;
+  height: 8vh;
+}
+
+
+
+#validFeedback {
+  display: block;
+  width: 20vw;
+  background-color: black;
+  text-align: center;
+}
+
+.feedbackDiv {
+  width: 100%;
+}
+
+.screenTitle{
+  font-weight: 500;
+  font-size: 4.5vh;
+
+}
+
+#amount_input {
+  width: 25vw;
+}
+
+.inputStat {
+  color: red;
+  margin-top: 3px;
+}

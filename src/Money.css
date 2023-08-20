@@ -1,0 +1,34 @@
+.Money {
+    box-shadow: 2px 5px 15px #bfbfbf;
+    width: 98%;
+    height: 13vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.InnerTr{
+    padding: 100px;
+    text-align: center;
+}
+
+.billIcon {
+    width:auto;
+    height: 6vh;
+    margin: 0;
+}
+
+.moneyEle {
+    padding: 0 1.5vw;
+}
+
+.coinIcon {
+    width: auto;
+    height: 5.2vh;
+    margin: 0;
+}
+.amountEle {
+    font-weight: bold;
+    font-size: 2vh;
+}
